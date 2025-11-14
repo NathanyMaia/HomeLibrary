@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Home Library</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">O endereço de e-mail é inválido</string>
+    <string name="error_invalid_password">Senha fora dos padrões de segurança</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="login">Login</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="confirmacao_senha">Confirmação de senha</string>
+    <string name="gravar">Gravar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="erro_validacao_preenchimento">Preencha todos os campos para continuar.</string>
+    <string name="erro_confirmacao_senha_validacao">O campo Senha deve não está igual em sua confirmação.</string>
+    <string name="erro_realizar_login">Erro ao realizar login.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informe_isbn">Informe o ISBN</string>
+    <string name="isbn_sigla">ISBN</string>
+    <string name="enviar">Enviar</string>
+    <string name="t_tulo_livro">Título Livro</string>
+    <string name="autor">Autor</string>
+    <string name="editora">Editora</string>
+    <string name="sinopse">Sinópse</string>
+    <string name="salvar">Salvar</string>
+    <string name="cadastro_livro">Cadastro Livro</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="id">Id</string>
+    <string name="titulo_livro">Título Livro</string>
+    <string name="drawer_open">Abrir Menu</string>
+    <string name="drawer_close">Fechar Menu</string>
+    <string name="meus_livros">Meus Livros</string>
+    <string name="emprestimos">Empréstimos</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="minhas_leituras">Minhas leituras</string>
+    <string name="consultar_livro">Consultar Livro</string>
+    <string name="sair">Sair</string>
+    <string name="livro_existe_cadastrado">Já existe este livro cadastrado.</string>
+    <string name="erro_inserir_registro">Erro ao inserir registro</string>
+    <string name="salvo_sucesso">Registro salvo com sucesso.</string>
+    <string name="excluindo_livro">Excluindo livro</string>
+    <string name="confirma_exclusao_livro">Confirma a exclusão do livro selecionado?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="registro_removido_sucesso">Registro removido com sucesso.</string>
+</resources>
