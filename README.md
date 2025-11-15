@@ -1,40 +1,61 @@
+# Sistema de Gestão de Acervo Digital – Projeto de Extensão
 
-# HomeLibrary
-Aplicativo para controle de biblioteca pessoal, com controle de leitura e empréstimos.
-Este projeto é inicialmente referente ao Marco Avaliativo 2 da disciplina de Computação para Dispositivos Móveis 2018/1 da FADERGS, porém será dado continuidade na ideia e novas contribuições para o projeto são muito bem-vindas.
+## Visão Geral
+Este repositório contém o projeto de desenvolvimento de um **Sistema de Gestão de Acervo Digital** para uma biblioteca comunitária.  
+O objetivo é substituir o processo manual de registro de empréstimos e devoluções por uma solução digital eficiente, reduzindo erros, organizando o acervo e melhorando a experiência dos usuários da biblioteca.
 
-
-## Ferramenta para desenvolvimento.
-Android Studio com Gradle.
-Escrito em linguagem de programação JAVA.
-
-
-## O que é?
-### A ideia
-Aplicativo para organização de biblioteca pessoal. Ele terá uma conexão com os WebServices da Google e da Amazon, buscando dados em tempo real dos livros para melhor organização e melhor etiquetação dos mesmos. A leitura do código dos livros para busca nos WebServices poderá ser feita via leitura de código de barras utilizando a câmera do app, ou digitando o mesmo no cadastro do livro.
-Além disso, o aplicativo contará com a funcionalidade de controle de leitura, registro de citações, inclusão resenhas e notas e controle de empréstimos.
-
-
-#### Implementação futura
-Criação de WebService para armazenar as informações dos livros, especialmente os cadastrados manualmente devido a ausência de informações na Amazon e Google. Esse WebService poderá ser acessado de um site e também terá o controle dos usuários, logins, históricos, entre outros.
-Todas essas implementações continuarão disponíveis aqui e o projeto continuará completamente Open Source.
-
-### O que já foi feito
-Até o momento o aplicativo já possui o cadastro de usuário, login interno e o cadastro de livros buscando informações no WebService Google Books, além de toda a estruturação básica do código. O foco dado para a _Milestone Marco Avaliativo 2_ foi a estrutura do projeto, com interfaces, layout base, entre outros, visto que há a pretenção de continuar o projeto após esta primeira Milestone.
-
-<p>  
-  <img width="250" height="450" src="https://raw.githubusercontent.com/SalatielBairros/HomeLibrary/master/docs/Screenshots/Screenshot_1530503718.png">
-  <img width="250" height="450" src="https://raw.githubusercontent.com/SalatielBairros/HomeLibrary/master/docs/Screenshots/Screenshot_1530503658.png">
-  <img width="250" height="450" src="https://raw.githubusercontent.com/SalatielBairros/HomeLibrary/master/docs/Screenshots/Screenshot_1530503711.png">  
-</p>
+O projeto possui duração total de **6 meses**, incluindo levantamento de requisitos, desenvolvimento, testes, treinamento e avaliação.
 
 ---
 
-#### Dificuldades encontradas
-- Tempo livre para desenvolvimento;
-- Layout;
-- Gradle.
+## Objetivos do Projeto
+- Desenvolver um sistema digital para controle de acervo, empréstimos e devoluções.  
+- Capacitar os colaboradores da biblioteca no uso do software.  
+- Reduzir erros e inconsistências nos registros manuais.  
+- Melhorar a eficiência operacional da biblioteca.  
+- Promover a interação entre estudantes e comunidade através de uma solução tecnológica aplicada.
 
-#### Requisitos não funcionais.
-Min API 23.
+---
 
+## Tecnologias Utilizadas
+- **Java** como linguagem principal.  
+- Banco de dados relacional ou embarcado (a definir).  
+- Arquitetura modular visando manutenção e escalabilidade.  
+- Documentação técnica e manual do usuário.
+
+---
+
+## Cronograma do Projeto (6 meses)
+
+| Fase | Descrição | Prazo |
+|------|-----------|--------|
+| **Ação 1** | Levantamento e análise de requisitos com a biblioteca | Até 28/02/2025 |
+| **Ação 2** | Modelagem do sistema | Até 31/03/2025 |
+| **Ação 2.2** | Desenvolvimento completo do software | Até 31/05/2025 |
+| **Ação 3** | Testes com dados reais e ajustes | 01/06/2025 a 30/06/2025 |
+| **Ação 4** | Treinamento dos colaboradores | Até 15/07/2025 |
+| **Ação 5** | Pesquisa de satisfação e avaliação dos resultados | Até 25/07/2025 |
+| **Encerramento** | Entrega final e documentação completa | 31/07/2025 |
+
+---
+
+## Metodologia
+1. **Levantamento de requisitos:** reuniões iniciais para identificar necessidades, problemas e fluxos da biblioteca.  
+2. **Desenvolvimento:** criação do sistema utilizando boas práticas de programação e design de software.  
+3. **Validação:** testes com dados reais e coleta de feedback dos colaboradores.  
+4. **Treinamento:** instrução prática para uso, instalação e operação do sistema.  
+5. **Avaliação:** aplicação de questionários, comparação dos registros antes/depois e análise da eficiência operacional.
+
+---
+
+## Avaliação dos Resultados
+A eficácia do sistema será analisada por meio de:
+- Comparação entre registros de empréstimos antes vs. depois da implantação;  
+- Pesquisas de satisfação com colaboradores e usuários;  
+- Observação direta da rotina de trabalho da biblioteca.
+
+---
+
+## Relato de Experiência
+Durante a execução do projeto, foi possível compreender de forma mais profunda os desafios reais enfrentados pela biblioteca e propor soluções tecnológicas adequadas ao contexto.  
+A colaboração com os funcionários evidenciou a importância do trabalho em equipe, comunicação clara e desenvolvimento orientado ao usuário — aspectos essenciais em projetos de software aplicados à comunidade.
